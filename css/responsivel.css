@@ -1,0 +1,50 @@
+@media only screen and (max-width: 870px){
+    .logo h1{
+        font-size: 26px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+
+    header{
+        display: block;
+        margin: 0;
+    }
+    
+    .left{
+        text-align: center;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .right h2{
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .right button{
+        position: relative;
+        top: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+    .menu{
+        display: none;
+    }
+    header{
+        margin-top: 5%;
+    }
+    .right h2{
+      font-size: 26px;
+      line-height: 36px;
+    }
+    .right button{
+        position: relative;
+        top: 30px;
+    }
+}

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Luckiest+Guy&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    flex: 100%;
+}
+
+.logo {
+    flex: 40%;
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+    color: #FF0000;
+}
+
+.menu {
+    flex: 60%;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.menu a:hover {
+    color: #FF0000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    flex: 100%;
+    margin-top: 5%;
+}
+
+.left {
+    flex: 45%;
+    margin-left: 5%;
+}
+.left img{
+    width: auto;
+    height: auto;
+}
+
+.right {
+    flex: 45%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.right h2 {
+    font-family: 'Bungee Inline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.right #color-burguer {
+    font-family: 'Bungee Shade', cursive;
+    color: #FF0000;
+}
+
+.right button {
+    width: 240px;
+    height: 60px;
+    background: linear-gradient(180deg, #FF0000 0%, rgba(255, 0, 0, 0) 123.33%);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.right button:hover{
+    background: linear-gradient(180deg, #FF7A00 0%, #FF0000 55.06%);
+}
