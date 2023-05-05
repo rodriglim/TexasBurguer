@@ -61,11 +61,12 @@ header {
     margin-top: 5%;
 }
 
-.left {
+header>.left {
     flex: 45%;
     margin-left: 5%;
 }
-.left img{
+
+header>.left img {
     width: auto;
     height: auto;
 }
@@ -104,26 +105,27 @@ header {
     cursor: pointer;
 }
 
-.right button:hover{
+.right button:hover {
     background: linear-gradient(180deg, #FF7A00 0%, #FF0000 55.06%);
 }
 
-section{
+
+section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 100%;
-    margin-top: 4%;
+    margin-top: 10%;
     flex-flow: row wrap;
     height: auto;
 }
 
-.top{
+.top {
     flex: 100%;
     text-align: center;
 }
 
-.top h3{
+.top h3 {
     font-family: 'Bungee Shade', cursive;
     font-style: normal;
     font-weight: 400;
@@ -132,13 +134,13 @@ section{
     color: #FF0000;
 }
 
-.options{
+.options {
     flex: 100%;
     margin-top: 2%;
     text-align: center;
 }
 
-.options a{
+.options a {
     text-decoration: none;
     padding: 10px 24px;
     margin: 10px;
@@ -152,12 +154,12 @@ section{
     color: #FFFFFF;
 }
 
-.options a:hover{
+.options a:hover {
     opacity: 0.7;
     transition: 1s;
 }
 
-.card{
+.card {
     position: relative;
     width: 160px;
     height: 240px;
@@ -165,13 +167,88 @@ section{
     margin: 15px;
     background-color: #FF0000;
     border-radius: 10px;
-    margin-top: 4%;
-    
+    margin-top: 6%;
+
 }
 
-.card img{
+.card img {
     object-fit: cover;
     width: 160px;
     height: 240px;
     border-radius: 10px;
+}
+
+
+#section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+    flex-flow: row wrap;
+    margin-top: 10%;
+    height: auto;
+}
+
+#section-two .left-two {
+    flex: 36%;
+    margin-left: 4%;
+    margin-top: -4%;
+    text-align: center;
+}
+
+#section-two .left-two>h3 {
+    font-family: 'Bungee Shade';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FF0000;
+}
+
+#section-two .left-two > #mobile-sobre{
+    display: none;
+}
+
+#section-two .left-two>.circle-father {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #FF7A00;
+    border-radius: 300px;
+}
+
+#section-two .left-two .circle-father>.circle-child {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #FF0000;
+    border-radius: 300px;
+    left: 70%;
+    top: 50%;
+}
+
+#section-two .left-two .circle-father>.circle-child p {
+    position: absolute;
+    width: 430px;
+    height: 169px;
+    left: -70%;
+    top: -20%;
+    font-family: 'Bungee Inline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#section-two > .right-two{
+    text-align: right;
+    flex: 60%;
+}
+
+#section-two .right-two img{
+    max-width: 100%;
+    max-height: 80%;
 }
