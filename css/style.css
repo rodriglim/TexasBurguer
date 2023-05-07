@@ -205,7 +205,7 @@ section {
     color: #FF0000;
 }
 
-#section-two .left-two > #mobile-sobre{
+#section-two .left-two>#mobile-sobre {
     display: none;
 }
 
@@ -243,97 +243,95 @@ section {
     color: #FFFFFF;
 }
 
-#section-two > .right-two{
+#section-two>.right-two {
     text-align: right;
     flex: 60%;
 }
 
-#section-two .right-two img{
+#section-two .right-two img {
     max-width: 100%;
     max-height: 80%;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 100%;
     flex-flow: row wrap;
-    height: auto;
-    margin-bottom: 2%;
+    flex: 100%;
+    margin: 0;
+    margin-top: 5%;
 }
 
-.text-footer{
+.contato-titulo {
+    text-align: center;
     flex: 100%;
-    font-family: 'Bungee Shade', cursive;
+}
+
+.contato-titulo h3 {
+    font-family: 'Bungee Shade';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 48px;
-    text-align: center;
-    margin: 0;
     color: #FF0000;
 }
-.left-footer{
-    flex: 45%;
+
+.contato {
+    flex: 65%;
     margin-left: 5%;
 }
 
-.left-footer > .contact a{
+.contato-informacao img {
+    width: 30px;
+    height: 30px;
+}
+
+.contato-informacao a {
     position: absolute;
     text-decoration: none;
-    font-family: 'Bungee Inline', cursive;
+    font-family: 'Bungee Inline';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
+
+.contato-informacao a:hover{
+    color: #FF0000;
+    transition: 1s;
+}
+
+.redes-sociais {
+    flex: 30%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.redes-sociais p {
+    font-family: 'Bungee Inline';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
-    margin-top: 15px;
-    margin-left: 10px;
 }
 
-.left-footer > .contact a:hover{
-    color: #FF0000;
-}
-
-.left-footer > .contact img{
+.redes-sociais img {
     width: 30px;
     height: 30px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.left-footer > .contact img:hover{
-    transform: scale(0.8);
-    -webkit-transform: scale(0.8);
-    background-color: #FFFFFF;
-    border-radius: 25px;
-    transition: 2s;
-}
-.right-footer{
-    flex: 48%;
-    margin-right: 2%;
-    text-align: center;
-}
-
-.right-footer > p{
-    font-family: 'Bungee Inline', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
-}
-
-.right-footer > img{
-    width: 30px;
-    height: 30px;
-    margin: 10px;
+    margin: 5px;
     cursor: pointer;
 }
 
-.right-footer > img:hover{
-    transform: scale(0.9);
-    -webkit-transform: scale(0.9);
+.redes-sociais img:hover{
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
     background-color: #FFFFFF;
-    transition: 1s;
+    transition: 2s;
     border-radius: 25px;
+
 }
+

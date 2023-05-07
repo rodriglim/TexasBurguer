@@ -58,7 +58,7 @@
         display: none;
     }
 
-    .text-footer{
+    footer{
         margin-top: 15%;
     }
 }
@@ -135,7 +135,7 @@
 
     #section-two .left-two > #mobile-sobre{
         width: 75%;
-        height: 200px;
+        height: auto;
         display: block;
         font-family: 'Bungee Inline';
         font-style: normal;
@@ -147,43 +147,29 @@
     }
 
     footer{
+        margin-top: 15%;
+    }
+
+    .contato{
         flex: 100%;
-        margin: 0 auto;
-        text-align: center;
+        margin: 0;
+        margin-bottom: 5%;
     }
-    .text-footer{
-        font-size: 30px;
-        line-height: 38px;
-    }
-    .left-footer{
-        flex: 100%;
-    }
-    .left-footer .contact{
+
+    .contato .contato-informacao{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 14px;
     }
-    .left-footer .contact a{
-        font-size: 12px;
+
+    .contato-informacao img{
+        margin: 15px 0;
+    }
+    .contato-informacao a{
         margin-top: 50px;
     }
 
-    .left-footer .contact img{
-        width: 20px;
-        height: 20px;
-        margin: 10px 0;
-    }
-
-    .right-footer{
-        flex: 100%;
-    }
-
-    .right-footer > p{
-        font-size: 14px;
-    }
-    .right-footer img{
-        width: 20px;
-        height: 20px;
+    .redes-sociais{
+        margin-top: 2%;
     }
 }
