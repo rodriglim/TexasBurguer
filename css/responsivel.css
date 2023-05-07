@@ -58,6 +58,9 @@
         display: none;
     }
 
+    .text-footer{
+        margin-top: 15%;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -141,5 +144,46 @@
         line-height: 38px;
         color: #FFFFFF;
         margin: 0 auto;
+    }
+
+    footer{
+        flex: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .text-footer{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .left-footer{
+        flex: 100%;
+    }
+    .left-footer .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 14px;
+    }
+    .left-footer .contact a{
+        font-size: 12px;
+        margin-top: 50px;
+    }
+
+    .left-footer .contact img{
+        width: 20px;
+        height: 20px;
+        margin: 10px 0;
+    }
+
+    .right-footer{
+        flex: 100%;
+    }
+
+    .right-footer > p{
+        font-size: 14px;
+    }
+    .right-footer img{
+        width: 20px;
+        height: 20px;
     }
 }
